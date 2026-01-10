@@ -1,12 +1,15 @@
-## Hi there 👋
+# SKaiNET Federated Learning 
 
-<!--
+**Proposal to add privacy-preserving, decentralized training to the SKaiNET deep-learning framework.**
 
-**Here are some ideas to get you started:**
+The project enables many devices (phones, desktops, edge nodes) to train a shared model locally, using SKaiNET’s existing on-device training APIs, while keeping all raw user data on the device. Only model updates (such as weights, gradients, and basic metrics) are sent to a central coordinator, which aggregates them (initially using FedAvg) to produce a new global model.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### The project focuses on:
+
+* On-device / edge AI
+* Federated learning with strong privacy guarantees
+* Kotlin Multiplatform support (JVM, Android, etc.)
+* A modular architecture with a portable federated core, pluggable networking, and a JVM reference coordinator
+
+## Vision  
+The goal is to make federated learning a natural extension of SKaiNET’s device-first philosophy, enabling collaborative model training without centralizing user data.
