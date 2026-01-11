@@ -13,3 +13,9 @@ The project enables many devices (phones, desktops, edge nodes) to train a share
 
 ## Vision  
 The goal is to make federated learning a natural extension of SKaiNET’s device-first philosophy, enabling collaborative model training without centralizing user data.
+
+## Releases
+
+Follow changelog tracking the current releases:
+
+https://github.com/Fed-SKaiNET/skainet-fed/blob/develop/CHANGELOG.md
