@@ -11,6 +11,16 @@ The project enables many devices (phones, desktops, edge nodes) to train a share
 * Kotlin Multiplatform support (JVM, Android, etc.)
 * A modular architecture with a portable federated core, pluggable networking, and a JVM reference coordinator
 
+> [!IMPORTANT]
+> **About the name**
+>
+> “SKaiNET” is a **working project name** chosen early in the project’s life as part of a personal learning and experimentation effort, before any trademark considerations were known.
+>
+> The name is **not intended to reference, infringe, or imply association with any existing trademarks, companies, or products**. It is not a commercial brand and is **not claimed or assignable** to any company or organization that contributors may be affiliated with.
+>
+> If a naming conflict arises, the project name may be changed in the future.
+
+
 ## Vision  
 The goal is to make federated learning a natural extension of SKaiNET’s device-first philosophy, enabling collaborative model training without centralizing user data.
 
